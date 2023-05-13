@@ -9,9 +9,9 @@ export default function Homepage() {
 
   return (
     <>
-    <div className="container mt-32 flex flex-col justify-center items-center text-white">
-      <h1 className={`text-5xl text-white mx-auto flex opacity-0 transform translate-y-full transition ease-in-out duration-1000 ${load==='isLoaded' ? 'opacity-100 translate-y-1' : ''}`}><div className="animate-bounce w-6 h-6 rounded-full bg-blue-700 relative top-10"></div> Scribble-Pad <div className="animate-bounce w-6 h-6 rounded-full bg-pink-700"></div></h1>
-      <div className="rounded-md w-1/3 mt-10 bg-gradient-to-r from-blue-600 via-transparent to-pink-700 p-1">
+    <div className="container mt-[128px] px-0 max-w-full inline-block  text-white">
+      <h1 className={`text-5xl text-white mx-auto flex justify-center opacity-0transition-all ease-in-out duration-1000 ${load==='isLoaded' ? 'opacity-100' : ''}`}><div className="animate-bounce w-6 h-6 rounded-full bg-blue-700 relative top-10"></div> Scribble-Pad <div className="animate-bounce w-6 h-6 rounded-full bg-pink-700"></div></h1>
+      <div className="rounded-md mt-10 w-1/3 mx-auto bg-gradient-to-r from-blue-600 via-transparent to-pink-700 p-1">
         <div className="p-3  bg-indigo-950">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
           debitis, architecto nulla quae reiciendis, quos blanditiis porro,
